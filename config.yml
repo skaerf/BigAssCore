@@ -1,0 +1,31 @@
+# BigAssConfigFile
+join-message: "&8[&5&l+&8] &7%player_name% joined OPNetwork"
+quit-message: "&8[&5&l-&8] &7%player_name% left OPNetwork"
+spawn-on-join: "false"
+motd: "&6&lOP&c&lNetwork &8&l>> &b[&31.8+&b]\n&6&lReleasing OP Gamemodes Soon!"
+playerlimit: 100
+join:
+  enabled: 'true'
+  title:
+    enabled: 'true'
+    title: '&c&lWelcome to &6&lOPNetwork'
+    subtitle: '&4&lHave Fun!'
+  message:
+    enabled: 'true'
+    message: |-
+      &c&lWelcome, &6&l%player%&c&l!
+      &c&lRight click an NPC to get started!
+chat:
+   global: 'false'
+   format:
+      global: '%vault_prefix%%bigasscore_nickname% &8&l>> &7'
+      default:
+         spawn: '%vault_prefix%%bigasscore_nickname% &8&l>> &7'
+         skyblock: '&8[&7%iridiumskyblock_level%&8] %vault_prefix%%bigasscore_nickname% &8&l>> &7'
+         factions: '%vault_prefix%%bigasscore_nickname% &8&l>> &7'
+      ranked:
+         spawn: '%vault_prefix%%bigasscore_nickname% &8&l>> &f'
+         skyblock: '&8[&7%iridiumskyblock_level%&8] %vault_prefix%%bigasscore_nickname% &8&l>> &f'
+         factions: '%factions_faction%%vault_prefix% %bigasscore_nickname% &8&l>> &f'
+         
+vanished: []

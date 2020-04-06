@@ -1,0 +1,73 @@
+name: BigAssCore
+version: 1.0
+author: skaerf
+main: net.skaerf.bigasscore.BigassCore
+description: BigAssCore
+depend: [PlaceholderAPI]
+commands:
+   nick:
+      usage: /nick
+      description: Set yourself a nickname
+   vanish:
+      usage: /vanish
+      aliases: [v]
+      description: Vanish yourself or others
+   ban:
+      usage: /ban
+      description: Permanently ban a player
+      
+   tempban:
+      usage: /tempban
+      description: Temporarily ban a player
+      
+   unban:
+      usage: /unban
+      description: Unban a player
+      
+   spawn:
+      usage: /spawn
+      aliases: [spawnpoint]
+      description: Go to spawn
+      
+   bigasscore:
+      usage: /bigasscore
+      aliases: [bassc, bac]
+      description: BigassCore Main CMD
+      
+   clan:
+      usage: /clan
+      aliases: [clans]
+      description: Clan information
+      
+   gms:
+      usage: /gms
+      aliases: [gamemodes]
+      description: Set your gamemode to Survival
+      
+   gmc:
+      usage: /gmc
+      aliases: [gamemodec]
+      description: Set your gamemode to Creative
+
+   gma:
+      usage: /gma
+      aliases: [gamemodea]
+      description: Set your gamemode to Adventure
+      
+   gmsp:
+      usage: /gmsp
+      aliases: [gamemodec]
+      description: Set your gamemode to Spectator
+      
+   gm:
+      usage: /gm
+      aliases: [gamemode]
+      description: Set your gamemode
+      
+   whois:
+      usage: /whois
+      description: Get details about a player
+      
+   realname:
+      usage: /realname
+      description: Get the real name of a player from a nickname
