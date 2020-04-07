@@ -1,5 +1,8 @@
 package net.skaerf.bigasscore;
 
+import java.util.HashMap;
+import java.util.UUID;
+
 import org.bukkit.Bukkit;
 import org.bukkit.plugin.java.JavaPlugin;
 
@@ -14,6 +17,7 @@ import net.skaerf.bigasscore.cmds.WhoisCommand;
 public class BigassCore extends JavaPlugin {
 	
 	private ConfigManager CFGm;
+	public HashMap<UUID, Double> playerBank = new HashMap<>();
 	
 	@Override
 	public void onEnable() {

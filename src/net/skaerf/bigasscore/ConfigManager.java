@@ -182,13 +182,6 @@ public class ConfigManager {
 			}
 		}
 		punishmentsCFG = YamlConfiguration.loadConfiguration(punishments);
-		//punishmentsCFG.addDefault("ipbans", "");
-		//punishmentsCFG.addDefault("bans", "");
-		//punishmentsCFG.addDefault("tempbans", "");
-		//punishmentsCFG.addDefault("mutes", "");
-		//punishmentsCFG.addDefault("tempmutes", "");
-		//punishmentsCFG.addDefault("tempipbans", "");
-		//punishmentsCFG.options().copyDefaults(true);
 		System.out.println("punishments.yml was loaded");
 	}
 	public FileConfiguration getPunishments() {
